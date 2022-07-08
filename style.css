@@ -1,0 +1,221 @@
+
+.main{
+	width: 100%;
+}
+nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	justify-items: center;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-family: Helvetica;
+	font-size: 25px;
+}
+ul{
+	margin: 0px ;
+	align-items: center;
+    padding-left: 550px;
+    padding-top: 40px;
+}
+ul li{
+	float: left;
+	padding: 0px 10px;
+	list-style: none;
+}
+ul li a:hover{
+	color: indianred;
+}
+.main{
+	background-image: url('https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?cs=srgb&dl=pexels-chan-walrus-941861.jpg&fm=jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+h3{
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+	font-style: bold;;
+	font-size: 80px;
+}
+.butt1{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	text-align: center;
+	border:1px solid #fff ;
+	color: #fff;
+	background: none;
+    font-size: 18px;
+	padding: 8px 20px;
+}
+.butt1:hover{
+	background: skyblue;
+	color: #fff;
+}
+.head{
+	position: absolute;
+	top: 15%;
+	left: 40%;
+	text-align: center;
+
+}
+.content{
+	position: absolute;
+	top: 105%;
+	bottom: 100%;
+	text-align: center;
+	padding: 0px 500px;
+	font-size: 20px;
+}
+
+.outerbox{
+	padding-top: 400px;
+	top: 200%;
+   /* width:1480px;
+    overflow: hidden;*/
+    height: 500px;
+}
+.sliderbox{
+     position: relative;
+     width: 6000px;
+     animation-name: slide;
+     animation-duration: 20s;
+     animation-iteration-count: infinite;
+
+}
+.sliderbox img{
+	width: 1500px;
+	float: left;
+	height: 650px;
+}
+@keyframes slide{
+	0%{
+        left: 0px;
+	}
+	20%{
+		left: 0px;
+	}
+	25%{
+        left: -1480px;
+	}
+	45%{
+		left: -1480px;
+	}
+	50%{
+		left: -2960px;
+	}
+	70%{
+		left: -2960px;
+	}
+	75%{
+		left: -4440px;
+	}
+	95%{
+		left: -4440px;
+	}
+	100%{
+		left: -5920px;
+	}
+}
+
+.info{
+	position: absolute;
+	top: 270%;
+	left: 20%;
+	transform: translate(-50%,-50%);
+
+}
+input{
+	padding-right: 80px;
+	padding-top: 10px;
+	text-align: left;
+	border: 1px solid grey;
+}
+.booking{
+	width: 33.3%;
+	float: left;
+	padding-top: 10px 70px;
+	min-height: 250px;
+	
+}
+.book{
+	padding-left: 100px;
+	padding-left: 500px;
+	padding: 500px;
+}
+.opn{
+   padding: 100px;
+	padding-left: 400px;
+}
+.contact{
+   padding: 100px;
+	padding-left: 400px;
+}
+#butt button:hover{
+	background: skyblue;
+}
+input{
+	padding: 10px;
+	text-align: left;
+	padding-right: 70px;
+	background: #F0F0F0;
+	border:1px solid skyblue;
+}
+input[type="text"]::-webkit-input-placeholder{
+	font-size: 15px;
+	}
+input[type="phone"]::-webkit-input-placeholder{
+	font-size: 14px;
+	
+}
+.info{
+	height: 500px;
+	border: none;
+	width: 1500px;
+
+	top: 300%;
+	bottom: 50%;
+	margin-bottom: 10%;
+	left: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.info1{
+		
+	border: 0px solid blueviolet;
+	width: 300px;
+	height: 400px;
+	float: left;
+	box-shadow: 5px 5px 5px grey ;
+	transition: transform 1s;
+	}
+	.info1:hover{
+		transform: scale(1.05);
+	}
+	.hed{
+		top: 265;
+	}
+	h5{
+		font-size: 30px;
+	}
+	p{
+		font-family:Arial Narrow, sans-serif ;
+		font-size: 20px; 
+	}
+	.butt2{
+		color: black;
+		left: 10;
+		border-color: aliceblue;
+		border-radius: 4px;
+		padding: 10px;
+	}
+   .butt2:hover{
+   	color: white;
+   	background: skyblue;
+   }
